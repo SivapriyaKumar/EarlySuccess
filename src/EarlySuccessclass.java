@@ -13,6 +13,7 @@ public class EarlySuccessclass {
 		wd.get("https://www.amazon.in");
 		wd.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("iphone");
 		wd.findElement(By.xpath("//input[@type='submit' and @class='nav-input']")).click();
+		wd.findElement(By.xpath("//h2[@data-attribute='Apple iPhone 6 (Space Grey, 32GB)']/parent::a")).click();
 		wd.close();
 	}
 
