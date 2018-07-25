@@ -1,6 +1,7 @@
 #
 # Project specific excludes
 Drivers/
+test-output/
 #
 
 tomcat
